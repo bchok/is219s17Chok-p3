@@ -37,7 +37,7 @@
         <div class="col-md-6">
             <div class="thumbnail">
 
-					<img class="poster" src="{{movie.posters[0]}}"/>
+					<img class="poster" ng-click="posterClick(movie)" src="{{movie.posters[movie.posterindex]}}"/>
 					<div class="imageInfo">{{movie.posterindex}}</div>
 
 					<p class="title">{{movie.title}} ({{movie.country}})</p>

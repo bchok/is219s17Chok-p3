@@ -116,11 +116,11 @@ app.controller('HomeController', ['$scope', function($scope) {
 		index.dislikes++;
 	};
 
-	function posterClick(index){
-		if($scope.movies[index].posterindex < $scope.movies[index].posters.length){
-			$scope.movies[index].posterindex++;
+	$scope.posterClick = function(index){
+		if(index.posterindex < index.posters.length - 1){
+			index.posterindex++;
 		}else {
-			$scope.movies[index].posterindex = 0;
+			index.posterindex = 0;
 		}
 
 	};
