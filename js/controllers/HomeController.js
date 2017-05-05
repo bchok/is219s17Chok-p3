@@ -88,8 +88,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
-
+	},
+		{
+			title:	'Blow',
+			iscore:	7.6,
+			rating:	'R',
+			runtime:	124,
+			released:	new Date('2001', '04', '06'),
+			country:	'USA',
+			posters:	['img/blow1.jpg', 'img/blow2.jpg'],
+			imdb:		'http://www.imdb.com/title/tt0221027/',
+			website:	'https://www.facebook.com/BlowFilmOfficial/',
+			likes:	6731,
+			dislikes:	472,
+			posterindex: 0
+		},
+		{
+			title:	'The Good, the Bad, and the Ugly',
+			iscore:	8.9,
+			rating:	'R',
+			runtime:	161,
+			released:	new Date('1967', '12', '29'),
+			country:	'USA/Italy',
+			posters:	['img/gb1.jpg', 'img/gb2.jpg'],
+			imdb:		'http://www.imdb.com/title/tt0060196/',
+			website:	'https://www.facebook.com/pages/The-Good-the-Bad-and-the-Ugly/112176132131614',
+			likes:	1045,
+			dislikes:	372,
+			posterindex: 0
+		},
+		{
+			title:	'Tombstone',
+			iscore:	7.8,
+			rating:	'R',
+			runtime:	130,
+			released:	new Date('1993', '12', '25'),
+			country:	'USA',
+			posters:	['img/tomb1.jpg', 'img/tomb2.jpg'],
+			imdb:		'http://www.imdb.com/title/tt0108358/?ref_=fn_al_tt_1',
+			website:	'https://www.facebook.com/pages/Tombstone/108177679209846',
+			likes:	750,
+			dislikes:	233,
+			posterindex: 0
+		},
 
   ];
 
